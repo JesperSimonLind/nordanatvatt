@@ -10,9 +10,11 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        <img src={images.nordanalogo} alt="Nordanå Tvätt logotyp" />
-      </div>
+      <a href="#hem">
+        <div className="app__navbar-logo">
+          <img src={images.nordanalogo} alt="Nordanå Tvätt logotyp" />
+        </div>
+      </a>
       <ul className="app__navbar-links">
         <li className="p__opensans">
           <a href="#hem">Hem</a>
