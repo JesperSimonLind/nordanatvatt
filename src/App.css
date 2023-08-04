@@ -19,7 +19,7 @@
 }
 
 .app__bg {
-  background: url("./assets/Hero-webP.webp");
+  background: url(./assets/Hero.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: repeat;

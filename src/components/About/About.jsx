@@ -40,7 +40,7 @@ const About = () => {
             </Grid>
             <Grid item xs={12} md={6}>
               <div className="about__image">
-                <img src={images.aboutWebP} alt="En bild på ett tvätteri" />
+                <img src={images.about} alt="En bild på ett tvätteri" />
               </div>
             </Grid>
           </Grid>
