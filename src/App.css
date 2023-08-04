@@ -19,7 +19,7 @@
 }
 
 .app__bg {
-  background: url("./assets/Hero.png");
+  /* background: url("./assets/Hero.png"); */
   background-color: var(--color-darkPurple);
   background-position: center;
   background-size: cover;
