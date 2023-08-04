@@ -31,7 +31,11 @@ const Services = () => {
                 marginTop: "32px",
               }}
             >
-              <img className="button-grow" src={images.arbetsklader}></img>
+              <img
+                className="button-grow"
+                src={images.arbetsklader}
+                alt="Arbetskläder tjänst"
+              ></img>
               <p className="service__title">Arbetskläder</p>
               <p className="service__p">
                 Varselplagg, overaller, byxor, tröjor m.m. och lagning av
@@ -46,7 +50,11 @@ const Services = () => {
                 marginTop: "32px",
               }}
             >
-              <img className="button-grow" src={images.diverse}></img>
+              <img
+                className="button-grow"
+                src={images.diverse}
+                alt="Diverse tjänst"
+              ></img>
               <p className="service__title">Diverse</p>
               <p className="service__p">Filtar, kuddar, täcken m.m.</p>
             </Box>
@@ -58,7 +66,11 @@ const Services = () => {
                 marginTop: "32px",
               }}
             >
-              <img className="button-grow" src={images.skurmoppar}></img>
+              <img
+                className="button-grow"
+                src={images.skurmoppar}
+                alt="Skurmoppar tjänst"
+              ></img>
               <p className="service__title">Skurmoppar</p>
               <p className="service__p">Tvättning av skurmoppar</p>
             </Box>
@@ -71,7 +83,11 @@ const Services = () => {
                 marginTop: "32px",
               }}
             >
-              <img className="button-grow" src={images.vittvatt}></img>
+              <img
+                className="button-grow"
+                src={images.vittvatt}
+                alt="Vittvätt Tjänst"
+              ></img>
               <p className="service__title">Vittvätt</p>
               <p className="service__p">Mangling av dukar, sängkläder m.m.</p>
             </Box>
@@ -83,7 +99,11 @@ const Services = () => {
                 marginTop: "32px",
               }}
             >
-              <img className="button-grow" src={images.mattor}></img>
+              <img
+                className="button-grow"
+                src={images.mattor}
+                alt="Mattor Tjänst"
+              ></img>
               <p className="service__title">Mattor</p>
               <p className="service__p">
                 Entrémattor och övriga mattor. Vi tvättar bl.a. åt privata och
