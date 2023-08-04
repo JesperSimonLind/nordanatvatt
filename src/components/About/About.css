@@ -8,7 +8,7 @@
       transparent 70%
     ),
     url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='1512' height='369' viewBox='0 0 1512 369' fill='none'><path d='M588.5 22.6405C427.7 -13.0694 129.833 7.76139 1 22.6405L-23 418H1638L1606.5 0.0319915C1517 -0.74095 1308.1 12.2058 1188.5 70.1764C1039 142.64 789.5 67.2779 588.5 22.6405Z' fill='%230C0F1C'/></svg>");
-  background-position: bottom left; /* Adjust the horizontal position if needed */
+  background-position: bottom; /* Adjust the horizontal position if needed */
   background-repeat: no-repeat;
 }
 
