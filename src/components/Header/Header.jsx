@@ -1,15 +1,31 @@
 import React from "react";
 import Button from "@mui/material/Button";
+import Box from "@mui/material/Box";
 import Reveal from "../Reveal/Reveal";
 
 import "./Header.css";
 
+import images from "../../constants/images";
+
 const Header = () => {
   return (
     <>
-      <div
+      <Box
         className="app__header app__wrapper header__padding app__bg"
         id="hem"
+        sx={{
+          backgroundColor: "var(--color-darkPurple)",
+          backgroundImage: `url(${images.hero})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+
+          minHeight: "100vh",
+        }}
       >
         <div className="app__wrapper_info">
           <Reveal>
@@ -35,7 +51,7 @@ const Header = () => {
             </a>
           </Reveal>
         </div>
-      </div>
+      </Box>
     </>
   );
 };
