@@ -19,12 +19,10 @@
 }
 
 .app__bg {
-  background-color: var(--color-darkPurple);
-  background-image: url("./assets/about-image.jpg");
+  background-image: url("./assets/Hero.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
-  background-attachment: fixed;
 }
 
 .app__wrapper {
