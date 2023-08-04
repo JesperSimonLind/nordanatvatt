@@ -19,7 +19,7 @@
 }
 
 .app__bg {
-  background: url("./assets/Hero.jpg");
+  background: url("./assets/Hero.png");
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
