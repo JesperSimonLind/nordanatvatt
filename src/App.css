@@ -20,7 +20,7 @@
 
 .app__bg {
   background-color: var(--color-darkPurple);
-  background: url("./assets/Hero.png");
+  background-image: url("./assets/Hero.png");
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
