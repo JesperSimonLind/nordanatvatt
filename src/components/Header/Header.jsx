@@ -15,22 +15,24 @@ const Header = () => {
           <Reveal>
             <h1 className="app__header-h1">Välkommen till Nordanå Tvätt</h1>
             <p className="p__opensans">Ditt lokala tvätteri sedan 1945</p>
-            <Button
-              className="header__button"
-              variant="contained"
-              size="large"
-              sx={{
-                marginTop: "16px",
-                fontFamily: "var(--font-base)",
-                backgroundColor: "var(--color-lightBlue)",
-                fontWeight: 600,
-                ":hover": {
-                  bgcolor: "#00A99F",
-                },
-              }}
-            >
-              Kontakta oss
-            </Button>
+            <a href="#kontakt">
+              <Button
+                className="header__button"
+                variant="contained"
+                size="large"
+                sx={{
+                  marginTop: "16px",
+                  fontFamily: "var(--font-base)",
+                  backgroundColor: "var(--color-lightBlue)",
+                  fontWeight: 600,
+                  ":hover": {
+                    bgcolor: "#00A99F",
+                  },
+                }}
+              >
+                Kontakta oss
+              </Button>
+            </a>
           </Reveal>
         </div>
       </div>
