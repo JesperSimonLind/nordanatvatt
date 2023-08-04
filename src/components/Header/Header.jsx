@@ -11,7 +11,6 @@ const Header = () => {
   return (
     <>
       <Box
-        className="app__header app__wrapper header__padding app__bg"
         id="hem"
         sx={{
           backgroundColor: "var(--color-darkPurple)",
